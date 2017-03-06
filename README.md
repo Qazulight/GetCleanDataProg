@@ -1,5 +1,5 @@
 This script will auto down load the original data and combine it and output 
-a .csv file with the data summarized.
+both a .csv and a .txt file with the data summarized.
 
 WARNING : This is script is not interactive. Once it starts, it will create 
 a directory on the host machine, and download a 60 megabyte file and expand 
