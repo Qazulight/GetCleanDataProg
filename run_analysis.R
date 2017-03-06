@@ -169,8 +169,10 @@ createsPath <- function() {
   setwd(dataDir)##sets the working directory back to the ExerciseData Directory created earlier
   print(getwd())
   print(dir())
-
+  
+  ##Step 24
   ##Creates a csv file from the data so it can be manipulated in any way desired.
   write.csv(file="means_all_data.csv", x = means_all_data, row.names = FALSE)
+  write.table(file="means_all_data.txt", x = means_all_data, row.names = FALSE)
   print(getwd())
   print(dir())
